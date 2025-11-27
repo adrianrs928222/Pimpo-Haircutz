@@ -18,36 +18,39 @@
 
   <body>
     <main class="min-h-screen bg-background">
-      <!-- HEADER -->
-      <header class="navbar">
-        <nav class="navbar-inner">
-          <div class="navbar-left">
-            <div class="logo-wrapper animate-float animate-glow">
+      <!-- TOPBAR BLESSED + PIMPO -->
+      <header class="topbar">
+        <div class="topbar-inner">
+          <div class="topbar-left">
+            <!-- LOGO BLESSED BARBER -->
+            <div class="topbar-logo-wrap">
               <img
                 src="images/design-mode/logoblessed.png"
                 alt="Blessed Barber"
-                class="logo-img"
+                class="topbar-logo"
               />
             </div>
-            <div class="logo-divider"></div>
-            <div class="logo-wrapper animate-float animate-glow delay-300">
+
+            <!-- LÍNEA VERTICAL -->
+            <div class="topbar-divider"></div>
+
+            <!-- LOGO PIMPO HAIRCUTZ -->
+            <div class="topbar-logo-wrap">
               <img
                 src="images/design-mode/logopimpo.png"
                 alt="Pimpo Haircutz"
-                class="logo-img logo-pimpo"
+                class="topbar-logo pimpo-logo"
               />
             </div>
           </div>
 
-          <div class="navbar-links">
-            <a href="#portfolio">Galería</a>
-            <a href="#pricing">Precios</a>
-            <a href="#awards">Premios</a>
-            <a href="#formacion">Formación</a>
-            <a href="#contact" class="btn-outline">Contacto</a>
-            <a href="#contact" class="btn-nav-cta">Reservar cita</a>
-          </div>
-        </nav>
+          <!-- MENÚ HAMBURGUESA -->
+          <button class="topbar-burger" aria-label="Abrir menú">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
       </header>
 
       <!-- HERO -->
@@ -284,9 +287,7 @@
             <h2 class="section-title">
               Premios y <span class="text-gold">Reconocimientos</span>
             </h2>
-            <p class="section-subtitle">
-              Artista premiado en competencias
-            </p>
+          <p class="section-subtitle">Artista premiado en competencias</p>
           </div>
 
           <div class="awards-grid">
